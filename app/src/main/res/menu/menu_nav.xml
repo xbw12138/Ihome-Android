@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_menu_state"
+            android:icon="@drawable/ic_nav_status"
+            android:title="状态与模式" />
+
+        <item
+            android:id="@+id/nav_menu_control"
+            android:icon="@drawable/ic_nav_control"
+            android:title="家居控制" />
+
+        <item
+            android:id="@+id/nav_menu_history"
+            android:icon="@drawable/ic_nav_history"
+            android:title="数据分析" />
+        <item
+            android:id="@+id/nav_menu_monitor"
+            android:icon="@drawable/ic_nav_monitor"
+            android:title="智能安防" />
+        <item
+            android:id="@+id/nav_menu_media"
+            android:icon="@drawable/ic_nav_media"
+            android:title="家庭娱乐" />
+
+    </group>
+</menu>

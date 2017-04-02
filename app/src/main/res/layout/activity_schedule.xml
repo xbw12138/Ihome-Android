@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+    <include layout="@layout/subpage_title_bar"
+        android:id="@+id/include" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_page_white"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="7dp"
+            android:id="@+id/schedule_spinner_task"
+            android:background="@color/main_blue_light"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:id="@+id/schedule_spinner_mode"
+            android:background="@color/main_blue_light"
+            android:layout_below="@+id/schedule_spinner_task"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TimePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedule_time"
+            android:layout_margin="7dp"
+            android:layout_below="@+id/schedule_spinner_mode"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/schedule_btn_add"
+            android:background="@drawable/selector_ok_button"
+            android:textColor="@color/color_btn_text"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

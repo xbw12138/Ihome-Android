@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="main_blue_light">#1D75D9</color>
+    <color name="main_blue_dark">#1D64C8</color>
+    <color name="main_white">#FFFFFF</color>
+    <color name="main_black">#000000</color>
+    <color name="main_black_grey">#6D6D6D</color>
+
+    <color name="color_page_white">#E6E6E6</color>
+    <color name="color_btn_white">#ffffff</color>
+    <color name="color_btn_text">#ffffff</color>
+    <color name="color_text_black">#000</color>
+
+    <!-- scanner -->
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#00000000</color>
+    <color name="capture_text_cover_bg">#99535353</color>
+    <color name="top_bar_normal_bg">#0E7EF0</color>
+
+</resources>

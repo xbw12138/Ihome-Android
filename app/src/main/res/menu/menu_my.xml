@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MyActivity">
+    <item android:id="@+id/bar_menu_msg" android:title="@string/str_menu_msg"></item>
+    <item android:id="@+id/bar_menu_memo" android:title="@string/str_menu_memo"></item>
+    <item android:id="@+id/bar_menu_face" android:title="@string/str_menu_face"></item>
+    <item android:id="@+id/bar_menu_schedule" android:title="@string/str_menu_schedule"></item>
+    <item android:id="@+id/bar_menu_regist" android:title="@string/str_menu_regist"></item>
+    <item android:id="@+id/bar_menu_rekeep" android:title="@string/str_menu_rekeep"></item>
+    <item android:id="@+id/bar_menu_scan" android:title="@string/str_menu_scan"></item>
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

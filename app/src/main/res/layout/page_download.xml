@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_page_white"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:id="@+id/webView"
+            android:layout_below="@+id/download_button"
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/selector_ok_button"
+            android:textColor="@color/color_btn_text"
+            android:text="添加下载任务"
+            android:id="@+id/download_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/download_editText"
+            android:textColor="#000"
+            android:text="http://115.159.23.237/lhc/iot.avi"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/download_button"
+            android:layout_toStartOf="@+id/download_button"
+            android:layout_alignBottom="@+id/download_button" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
