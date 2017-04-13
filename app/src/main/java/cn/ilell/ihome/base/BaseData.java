@@ -11,7 +11,7 @@ public class BaseData {
     public static String account_name;
     public static String home_id;
     public static String user_id;
-    public static String IP="xxx.xxx.xxx.xxx";
+    public static String IP="115.159.30.115";
 
     //20170316 定位
     public static String local="";

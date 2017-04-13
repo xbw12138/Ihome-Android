@@ -72,6 +72,8 @@ public class MsgService extends MyService {
     }
 
     public static void sendMsg(String str) {
+        if (socketOut == null)
+            return;
         try {
             socketOut.write(str.getBytes());
             socketOut.flush();
