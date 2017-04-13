@@ -66,7 +66,7 @@ public class RecognizerTask implements Runnable {
             this.done = false;
             this.q = q;
             this.block_size = block_size;
-            this.rec = new AudioRecord(MediaRecorder.AudioSource.DEFAULT, 8000,
+            this.rec = new AudioRecord(MediaRecorder.AudioSource.DEFAULT, 16000,
                     AudioFormat.CHANNEL_IN_MONO,
                     AudioFormat.ENCODING_PCM_16BIT, 8192);
         }
@@ -284,7 +284,7 @@ public class RecognizerTask implements Runnable {
         c.setString("-dict", dicPath);
         c.setString("-lm", imPath);
 
-        c.setFloat("-samprate", 8000.0);
+        c.setFloat("-samprate", 16000.0);
         c.setInt("-maxhmmpf", 2000);
         c.setInt("-maxwpf", 10);
         c.setInt("-pl_window", 2);
