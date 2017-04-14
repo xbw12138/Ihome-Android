@@ -10,9 +10,11 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.StrictMode;
 import android.support.annotation.Nullable;
+import android.util.Log;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.EOFException;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -30,6 +32,7 @@ import static java.lang.Thread.sleep;
 public class MsgService extends MyService {
 
     public void onCreate() {
+
     }
     @Nullable
     @Override
@@ -58,7 +61,6 @@ public class MsgService extends MyService {
     public void connectServer(){
         try {
             serviceSocket = new Socket(serverIP,serverPort);
-
             socketIn = new DataInputStream(serviceSocket.getInputStream());
             socketOut = new DataOutputStream(serviceSocket.getOutputStream());
             sendMsg("1/0/"+ BaseData.home_id);
@@ -72,6 +74,8 @@ public class MsgService extends MyService {
     }
 
     public static void sendMsg(String str) {
+        if (socketIn == null)
+            return;
         if (socketOut == null)
             return;
         try {
@@ -87,8 +91,25 @@ public class MsgService extends MyService {
         public void run() {
             while (true) {
                 try {
-                    recvMsg = socketIn.readUTF();
-                    mHandler.sendMessage(mHandler.obtainMessage());
+                    if (socketIn != null){
+                        recvMsg = socketIn.readUTF();
+                        mHandler.sendMessage(mHandler.obtainMessage());
+                    }
+                } catch (EOFException f) {//解决输入流已经到达末端问题
+                    f.printStackTrace();
+                    Log.d("@@@@@@","输入流已经到达末端");
+                    try {
+                        sleep(1000);
+                        serviceSocket.close();
+                        socketIn.close();
+                        socketOut.close();
+                        connectServer();
+                        break;
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                     try {
@@ -97,6 +118,7 @@ public class MsgService extends MyService {
                         socketIn.close();
                         socketOut.close();
                         connectServer();
+                        break;
                     } catch (InterruptedException e1) {
                         e1.printStackTrace();
                     } catch (IOException e1) {

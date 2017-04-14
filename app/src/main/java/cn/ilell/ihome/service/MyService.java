@@ -26,7 +26,7 @@ public class MyService extends Service {
     protected int serverPort = 5678;
     protected Socket serviceSocket;
     protected static DataOutputStream socketOut = null;
-    protected DataInputStream socketIn = null;
+    protected static DataInputStream socketIn = null;
     protected String recvMsg;
     protected String sendMsg;
     /** Notification构造器 */

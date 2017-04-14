@@ -3,156 +3,111 @@
 
     <item
         is-multidex="false"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\src\main\libs\Msc.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="85a46b29703ef8930a92d2fdea8ff336275c7ab2">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\Msc_a792c6133d8a21fe5dd1f9a0a37c171552b6f249.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\75c8809a381e13205459ce15a8ed5d4d8f2218fe\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\classes_7b6add47162f995b57d4a4a878b79ed6210b93aa.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\src\main\libs\Sunflower.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4fc4607eeb4561d2222e3d43f3ce06526c19e674">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\transforms\dex\debug\folders\1000\2\Sunflower_27894d46992c4ab48ea9b5d073006f7b048321a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\c03c4f8449dab61d08bd6c20ffd9a191a2322a0a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\classes_553f586f85bfc4829e312b714f73cc535ef9bcd2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\src\main\libs\Sunflower.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4fc4607eeb4561d2222e3d43f3ce06526c19e674">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\Sunflower_27894d46992c4ab48ea9b5d073006f7b048321a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\75c8809a381e13205459ce15a8ed5d4d8f2218fe\output\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_503d45b04c1179271a523b5bdfc4e8854b3fab36.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\src\main\libs\core-3.1.1-SNAPSHOT.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\transforms\dex\debug\folders\1000\2\core-3.1.1-SNAPSHOT_b5f5fa0e50b4d431c0595d5dbafab1b3f5db2dac\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\e7984ca0810d37aca5c67882fb0467198d9baf07\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\classes_f59751314371425a04e0c6a3f14c22ed61f662bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\b27750b9d7331869dfe76ce26b2c1cbe03316b81\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\classes_df089bc050371defa5a3fa0c22672e3eaa71eae9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\src\main\libs\core-3.1.1-SNAPSHOT.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\core-3.1.1-SNAPSHOT_b5f5fa0e50b4d431c0595d5dbafab1b3f5db2dac.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bac151276d2618633e6b68702d7af8b20478c411\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\72d57c765175c7d32fe41b2dcf471aed6c45acbb\output\jars\classes.jar"
+        jar="/Users/xubowen/.android/build-cache/9950419da2eabd2d2a4fd9caef2a61d1102a7b82/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\classes_3ea8d9fb6522d57bf7c2c3f8314b03541d999609.jar" />
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/classes_b0efd0a9657ba4fde1887ee6c19886414239cc4d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\1e3f5f61e792f56bb159acab1942a3864335cb26\output\jars\classes.jar"
+        jar="/Users/xubowen/.android/build-cache/da5646f54ea9e87097332563abaca9d2876e1d1d/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\classes_dbe81db3225e21e86575f455e69a9bb4adc0f528.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b485eb6c50870c0a06e335e23488038c342ac7db">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b3f2bb07e2bd7b1202024381991384062668a453\classes.dex" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/classes_05f9011dc7e88cbadf312d3a0b072268233af7b2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lhc35\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="/Users/xubowen/.android/build-cache/da5646f54ea9e87097332563abaca9d2876e1d1d/output/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_12244b8c6e47eb6f1f6d0c03cc2bb7568e5dc477.jar" />
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_0b1857271ec003af9a001ece28baedf57fd629a5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lhc35\.android\build-cache\80cb96bbda43a8e727cbdcfb5d946c2a74e5e321\output\jars\classes.jar"
+        jar="/Users/xubowen/.android/build-cache/5bd8cca872b77d1bdd5f5d3a3a3fd8caac935752/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\pre-dexed\debug\classes_00b12ffa8771419625de2be2bd7aca3171f120da.jar" />
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/classes_2b8b53f803937444159380bc4c56adc44e184d6f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\src\main\libs\Msc.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/xubowen/GitHub/Ihome-Android/app/src/main/libs/core-3.1.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/core-3.1.1-SNAPSHOT_0a766e41fdc156bf8c72d8795570c3de1b0d0083.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xubowen/.android/build-cache/638788580c16b85e7c55f935a26489ebec1b0fbd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/classes_cda8b11265c40ac237ce1f49c6847b8bf79ae609.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xubowen/GitHub/Ihome-Android/app/src/main/libs/Sunflower.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4fc4607eeb4561d2222e3d43f3ce06526c19e674">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/Sunflower_1c47d0b753c572729f533ec9d2f001d10ee5b67f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xubowen/.android/build-cache/6186ad30cc72911557fe7fa821e611e049b29c1b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/classes_2af5e57d26d15dacfc841731cdb5fb812c0510f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xubowen/.android/build-cache/17e0f92a36b6b7075e1f8e25b27bb88cd347dd93/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/classes_6a9790c054addf7a0a5cd0cd51e7ee5d7d1bc0d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xubowen/.android/build-cache/fd7091838a5e6715fcacecedde0361cdfea86fda/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/classes_33438ff6c32aafc0e7385a6ce9ec25e2edd6f9a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xubowen/GitHub/Ihome-Android/app/src/main/libs/Msc.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="85a46b29703ef8930a92d2fdea8ff336275c7ab2">
-        <dex dex="G:\Android\MyProject\new-Ihome-android\Ihome-Android\app\build\intermediates\transforms\dex\debug\folders\1000\2\Msc_a792c6133d8a21fe5dd1f9a0a37c171552b6f249\classes.dex" />
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/Msc_eae5e28affcffa5c855d07ada8ac0265a959260c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xubowen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/xubowen/GitHub/Ihome-Android/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_f6a83d104554b243a2b513a37e7c4a6269ca00db.jar" />
     </item>
 
 </items>
