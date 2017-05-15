@@ -2,7 +2,7 @@ package cn.ilell.ihome.base;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import android.net.wifi.ScanResult;
 /**
  * Created by lhc35 on 2016/5/4.
  */
@@ -16,4 +16,5 @@ public class BaseData {
     //20170316 定位
     public static String local="";
     public static List<String> listWifi=new ArrayList<String>();
+    public static List<ScanResult> listWifiScan=new ArrayList<ScanResult>();
 }

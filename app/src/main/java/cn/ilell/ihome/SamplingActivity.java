@@ -129,12 +129,28 @@ public class SamplingActivity extends Activity {
         info.bringToFront();
         info_time=(TextView) this.findViewById(R.id.sample_time);
         info_time.bringToFront();
-        if(!BaseData.listWifi.isEmpty()){
+        if(!BaseData.listWifiScan.isEmpty()){
+            for (int i = 1; i < BaseData.listWifiScan.size(); i++)
+
+                Log.i("CodecTestActivity", BaseData.listWifiScan.get(i).BSSID);
+
+
+            for(int i=1;i<BaseData.listWifiScan.size();i++){
+                String a=BaseData.listWifiScan.get(i).BSSID;
+                //String b[]=a.split("-");
+                //selectWIFI.add(b[2]);
+                selectWIFI.add(a);
+            }
+
+
+
+
+        /*if(!BaseData.listWifi.isEmpty()){
             for(int i=0;i<BaseData.listWifi.size();i++){
                 String a=BaseData.listWifi.get(i).toString();
                 String b[]=a.split("-");
                 selectWIFI.add(b[2]);
-            }
+            }*/
             //Toast.makeText(SamplingActivity.this, BaseData.listWifi.get(0).toString(),Toast.LENGTH_SHORT).show();
         }else{
             Toast.makeText(SamplingActivity.this, "空的",Toast.LENGTH_SHORT).show();

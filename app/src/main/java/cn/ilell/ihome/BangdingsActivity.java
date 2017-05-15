@@ -117,11 +117,17 @@ public class BangdingsActivity extends BaseSubPageActivity {
             if(!BaseData.listWifi.isEmpty()){
                 BaseData.listWifi.clear();
             }
-            for (int i = 0; i < size; i++)
+            if(!BaseData.listWifiScan.isEmpty()){
+                BaseData.listWifiScan.clear();
+            }
+            BaseData.listWifiScan=listWifiScan;
+
+            /*for (int i = 0; i < size; i++)
                 if (resultArray.valueAt(i)) {
                     BaseData.listWifi.add(listViewWifi.getAdapter().getItem(resultArray.keyAt(i)).toString());
                     Log.i("CodecTestActivity", listViewWifi.getAdapter().getItem(resultArray.keyAt(i)).toString());
                 }
+            */
             Intent intent = new Intent();
             intent.setClass(mContext, SamplingActivity.class);
             startActivity(intent);
